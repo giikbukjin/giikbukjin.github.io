@@ -183,6 +183,12 @@ exclude:
   - LICENSE
   - rollup.config.js
   - package*.json
+  - Gemfile
+  - Gemfile.lock
+  - .vscode
+  - .git
+  - .gitignore
+  - .DS_Store
 
 jekyll-archives:
   enabled: [categories, tags]
@@ -192,3 +198,5 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
+
+futrue: true
