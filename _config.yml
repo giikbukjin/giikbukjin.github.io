@@ -16,7 +16,7 @@ timezone: Asia/Seoul
 
 title: GiikBukJin # the main title
 
-tagline: It does not matter how slowly you go as long as you do not stop. # it will display as the sub-title
+tagline: # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
