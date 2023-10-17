@@ -17,7 +17,7 @@ timezone: Asia/Seoul
 title: GiikBukJin # the main title
 
 tagline: # it will display as the sub-title
-  It does not matter how slowly you go as long as you do not stop.
+  It  does  not  matter  how  slowly  you  go  as  long  as  you  do  not  stop.
 
 description: >- # used by seo meta and the atom feed
 
@@ -28,7 +28,7 @@ future: true
 url: "https://giikbukjin.github.io"
 
 github:
-  username: giikbuk # change to your github username
+  username: giikbukjin # change to your github username
 
 # twitter:
 #  username: twitter_username # change to your twitter username
