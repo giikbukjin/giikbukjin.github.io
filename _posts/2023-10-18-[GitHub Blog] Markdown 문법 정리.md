@@ -18,7 +18,7 @@ This post is to show Markdown syntax rendering on [**Chirpy**](https://github.co
 
 ```
 ---
-title: 포스팀 제목
+title: "포스팀 제목"
 date: YYYY-MM-DD HH:MM:SS +09:00
 categories: [주 카테고리, 부 카테고리]
 tags: [태그 1, 태그 2]
@@ -28,9 +28,11 @@ mermaid: true
 image:
   path: 썸네일 이미지 경로
   alt: 썸네일 이미지 하단 설명
+published: true
 ---
 ```
-<br>
+title을 작성할 때 큰따옴표("")로 묶지 않으면 대괄호를 사용할 수 없다.
+<br><br>
 
 
 ## Headings
