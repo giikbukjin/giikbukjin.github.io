@@ -1,6 +1,6 @@
 ---
 title: [GitHub Blog] Markdown 문법 정리
-date: 2023-10-18 11:33:00 +09:00
+date: 2023-10-18 09:00:00 +09:00
 categories: [기록, 블로그]
 tags: [GitHub.io, 구글서치콘솔]
 pin: true
