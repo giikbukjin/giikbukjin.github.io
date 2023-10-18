@@ -1,5 +1,5 @@
 ---
-title: [GitHub Blog] Markdown 문법 정리
+title: "[GitHub Blog] Markdown 문법 정리"
 date: 2023-10-18 09:00:00 +09:00
 categories: [기록, 블로그]
 tags: [GitHub.io, 구글서치콘솔]
@@ -8,7 +8,7 @@ math: true
 mermaid: true
 image:
   path: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Tortoise_Fred.jpg/600px-Tortoise_Fred.jpg
-  alt: 
+published: true
 ---
 
 This post is to show Markdown syntax rendering on [**Chirpy**](https://github.com/cotes2020/jekyll-theme-chirpy/fork), you can also use it as an example of writing. Now, let's start looking at text and typography.
