@@ -1,38 +1,70 @@
 ---
-title: Text and Typography
-author: cotes
-date: 2019-08-08 11:33:00 +0800
-categories: [Blogging, Demo]
-tags: [typography]
+title: [GitHub Blog] Markdown 문법 정리
+date: 2023-10-18 11:33:00 +09:00
+categories: [기록, 블로그]
+tags: [GitHub.io, 구글서치콘솔]
 pin: true
 math: true
 mermaid: true
 image:
   path: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Tortoise_Fred.jpg/600px-Tortoise_Fred.jpg
-  alt: Responsive rendering of Chirpy theme on multiple devices.
+  alt: 
 ---
 
 This post is to show Markdown syntax rendering on [**Chirpy**](https://github.com/cotes2020/jekyll-theme-chirpy/fork), you can also use it as an example of writing. Now, let's start looking at text and typography.
 
+
+## 본문에 포함되지 않는 포스팅 설정
+
+```
+---
+title: 포스팀 제목
+date: YYYY-MM-DD HH:MM:SS +09:00
+categories: [주 카테고리, 부 카테고리]
+tags: [태그 1, 태그 2]
+pin: false -> 고정 여부
+math: true
+mermaid: true
+image:
+  path: 썸네일 이미지 경로
+  alt: 썸네일 이미지 하단 설명
+---
+```
+<br>
+
+
 ## Headings
 
 # H1 - heading
-{: .mt-4 .mb-0 }
+```
+# H1 - heading
+```
 
 ## H2 - heading
-{: data-toc-skip='' .mt-4 .mb-0 }
+```
+# H2 - heading
+```
 
 ### H3 - heading
-{: data-toc-skip='' .mt-4 .mb-0 }
+```
+# H3 - heading
+```
 
 #### H4 - heading
-{: data-toc-skip='' .mt-4 }
+```
+# H4 - heading
+```
 
-## Paragraph
+## Image
+```
+![](https://외부 이미지 경로/이미지 이름.jpg)
 
-Quisque egestas convallis ipsum, ut sollicitudin risus tincidunt a. Maecenas interdum malesuada egestas. Duis consectetur porta risus, sit amet vulputate urna facilisis ac. Phasellus semper dui non purus ultrices sodales. Aliquam ante lorem, ornare a feugiat ac, finibus nec mauris. Vivamus ut tristique nisi. Sed vel leo vulputate, efficitur risus non, posuere mi. Nullam tincidunt bibendum rutrum. Proin commodo ornare sapien. Vivamus interdum diam sed sapien blandit, sit amet aliquam risus mattis. Nullam arcu turpis, mollis quis laoreet at, placerat id nibh. Suspendisse venenatis eros eros.
+또는
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Tortoise_Fred.jpg/600px-Tortoise_Fred.jpg)
+/assets/img/로컬 이미지 경로/이미지 이름.png
+```
+<br>
+
 
 ## Lists
 
@@ -42,11 +74,23 @@ Quisque egestas convallis ipsum, ut sollicitudin risus tincidunt a. Maecenas int
 2. Secondly
 3. Thirdly
 
+```
+1. Firstly
+2. Secondly
+3. Thirdly
+```
+
 ### Unordered list
 
 - Chapter
   + Section
     * Paragraph
+
+```
+- Chapter
+  + Section
+    * Paragraph
+```
 
 ### ToDo list
 
@@ -55,17 +99,32 @@ Quisque egestas convallis ipsum, ut sollicitudin risus tincidunt a. Maecenas int
   + [x] Step 2
   + [ ] Step 3
 
+```
+- [ ] Job
+  + [x] Step 1
+  + [x] Step 2
+  + [ ] Step 3
+```
+
 ### Description list
 
 Sun
 : the star around which the earth orbits
 
-Moon
-: the natural satellite of the earth, visible by reflected light from the sun
+```
+Sun
+: the star around which the earth orbits
+```
+<br>
+
 
 ## Block Quote
 
 > This line shows the _block quote_.
+
+```
+> This line shows the _block quote_.
+```
 
 ## Prompts
 
@@ -80,6 +139,22 @@ Moon
 
 > An example showing the `danger` type prompt.
 {: .prompt-danger }
+
+```
+> An example showing the `tip` type prompt.
+{: .prompt-tip }
+
+> An example showing the `info` type prompt.
+{: .prompt-info }
+
+> An example showing the `warning` type prompt.
+{: .prompt-warning }
+
+> An example showing the `danger` type prompt.
+{: .prompt-danger }
+```
+<br>
+
 
 ## Tables
 
