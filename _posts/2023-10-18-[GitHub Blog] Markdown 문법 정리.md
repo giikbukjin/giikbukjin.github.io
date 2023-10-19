@@ -5,11 +5,12 @@ categories: [기록, 블로그]
 tags: [GitHub.io, Markdown]
 pin: true
 math: true
-mermaid: true
+mermaid: false
 image:
   path: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Tortoise_Fred.jpg/600px-Tortoise_Fred.jpg
 published: true
 ---
+
 
 깃허브 블로그에 글을 쓰려면 마크다운 문법을 알아야 한다. 
 깃허브 Readme를 쓸 때 처음 접해봤지만 쓸 때마다 문법을 검색해 보고 익숙하지 않아서 작성도 오래 걸렸었다.
@@ -27,17 +28,19 @@ published: true
 title: "포스팅 제목"
 date: YYYY-MM-DD HH:MM:SS +09:00
 categories: [주 카테고리, 부 카테고리]
-tags: [태그 1, 태그 2]
-pin: false -> 고정 여부
-math: true
-mermaid: true
+tags: [태그 1, 태그 2, 태그 3...]
+pin: 고정 여부 (true/false)
+math: 수식 포함 여부 (true/false)
+mermaid: diagrams & flowcharts 포함 여부 (true/false)
 image:
   path: 썸네일 이미지 경로
   alt: 썸네일 이미지 하단 설명
 published: true
 ---
 ```
-title을 작성할 때 큰따옴표("")로 묶지 않으면 대괄호를 사용할 수 없다.
+> title을 작성할 때 큰따옴표("")로 묶지 않으면 대괄호를 사용할 수 없다.
+{: .prompt-tip }
+
 <br><br>
 
 
@@ -116,12 +119,12 @@ title을 작성할 때 큰따옴표("")로 묶지 않으면 대괄호를 사용�
 
 ### Description list
 
-Sun
-: the star around which the earth orbits
+Turtle
+: a reptile that lives mostly in water and that has a hard shell which covers its body see also sea.
 
 ```
-Sun
-: the star around which the earth orbits
+Turtle
+: a reptile that lives mostly in water and that has a hard shell which covers its body see also sea.
 ```
 <br>
 
@@ -166,11 +169,11 @@ Sun
 
 ## Tables
 
-| Company                      | Contact          | Country |
-|:-----------------------------|:-----------------|--------:|
-| Alfreds Futterkiste          | Maria Anders     | Germany |
-| Island Trading               | Helen Bennett    | UK      |
-| Magazzini Alimentari Riuniti | Giovanni Rovelli | Italy   |
+| 좌측 정렬               | 우측 정렬               |
+|:------------------------|-----------------------: |
+| 표 내용                 | 표 내용                 |
+| 표 내용 표 내용         | 표 내용 표 내용         |
+| 표 내용 표 내용 표 내용 | 표 내용 표 내용 표 내용 |
 
 ## Links
 
