@@ -2,7 +2,7 @@
 title: "[GitHub Blog] Markdown 문법 정리"
 date: 2023-10-18 09:00:00 +09:00
 categories: [기록, 블로그]
-tags: [GitHub.io, 구글서치콘솔]
+tags: [GitHub.io, Markdown]
 pin: true
 math: true
 mermaid: true
@@ -11,14 +11,20 @@ image:
 published: true
 ---
 
-This post is to show Markdown syntax rendering on [**Chirpy**](https://github.com/cotes2020/jekyll-theme-chirpy/fork), you can also use it as an example of writing. Now, let's start looking at text and typography.
+깃허브 블로그에 글을 쓰려면 마크다운 문법을 알아야 한다. 
+깃허브 Readme를 쓸 때 처음 접해봤지만 쓸 때마다 문법을 검색해 보고 익숙하지 않아서 작성도 오래 걸렸었다.
+
+블로그에 글을 쓰기 전 노션에 미리 글감을 적어 두는 편인데 인용문이나 글머리 기호 같은 노션의 요소들이 마크다운 문법 요소와 비슷해서 옮기기 좋은 것 같다. (노션에 마크다운 파일로 내보내는 기능도 있다!)
+요 며칠 블로그 글을 써 봤는데 조금은 익숙해진 것 같다.
+
+자주 쓰는 기능들을 한 포스팅에 정리해놓으려고 한다. 
 
 
 ## 본문에 포함되지 않는 포스팅 설정
 
 ```
 ---
-title: "포스팀 제목"
+title: "포스팅 제목"
 date: YYYY-MM-DD HH:MM:SS +09:00
 categories: [주 카테고리, 부 카테고리]
 tags: [태그 1, 태그 2]
