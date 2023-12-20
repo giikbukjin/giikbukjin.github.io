@@ -1,6 +1,6 @@
 ---
 title: "[GitHub Blog] Jekyll 테마 이용해 GitHub Blog 만들기"
-date: 2023-10-16 10:00:00 +09:00
+date: 2023-12-16 10:00:00 +09:00
 categories: [기록, 블로그]
 tags: [GitHubBlog, Jekyll, Chirpy]
 image: /assets/img/BlogImage/chirpy.png
@@ -32,6 +32,7 @@ pin: false
 	- Repository Name : [username.github.io](http://username.github.io/)
 	- public & Add a README file 체크
 <br>
+
 2. **Clone Repository to GitHub desktop**
 	- Open with GitHub Desktop을 눌러 Repository를 Clone한다.
 	- 터미널에서 입력하는 방법도 있지만, 사용하고 있던 GitHub Desktop에서 진행하였다.
@@ -121,6 +122,7 @@ Jekyll을 이용하면 손쉽게 블로그를 꾸밀 수 있다.
     - http://127.0.0.1:4000/ 을 브라우저에 입력하면 Jekyll 홈페이지가 나타난다.
 
  <br>
+ 
 5. **변경 사항 적용**
 	- GitHub에 업데이트하기
 		```bash
