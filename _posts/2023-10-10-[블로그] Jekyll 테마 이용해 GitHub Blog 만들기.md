@@ -36,14 +36,36 @@ pin: false
 	- Open with GitHub Desktop을 눌러 Repository를 Clone한다.
 	- 터미널에서 입력하는 방법도 있지만, 사용하고 있던 GitHub Desktop에서 진행하였다.
 
+<br>
+
 ## (2) Jekyll 이용해 GitHub 블로그 꾸미기
 Jekyll을 이용하면 손쉽게 블로그를 꾸밀 수 있다.
 
 일반적인 방법으로 Jekyll을 설치하려고 했으나, 맥북 M1을 사용하고 있다 보니 ruby 오류가 발생했다. 그래서 M1 MAC 기준으로 설명해보려고 한다.
 
 1. rebenv 설치 (brew가 없다면 설치해야 한다.)
-	```
+	```bash
 	brew install rbenv ruby-build
 	```
 	
-2. 
+	-  현재 사용 중인 ruby 버전 확인
+		```bash
+		rbenv versions
+		```
+
+	- 설치 가능한 ruby 버전 확인
+		```bash
+		rbenv install -l
+		```
+
+	- ruby 설치 (가장 최신의 정식 버전을 다운받았다.)
+		```bash
+		rbenv install 3.2.2
+		```
+
+	- ruby 버전 변경하기
+		```bash
+		rbenv global 3.2.2
+		```
+
+	- 다시 버전을 확인하면 설치한 버전이 적용되어 있는 것을 확인할 수 있다.
