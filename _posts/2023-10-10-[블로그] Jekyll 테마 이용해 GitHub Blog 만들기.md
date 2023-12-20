@@ -1,9 +1,9 @@
 ---
-title: "[블로그] Jekyll 테마 이용해 GitHub Blog 만들기"
+title: "[GitHub Blog] Jekyll 테마 이용해 GitHub Blog 만들기"
 date: 2023-10-16 10:00:00 +09:00
-categories: [개인, 블로그]
+categories: [기록, 블로그]
 tags: [GitHubBlog, Jekyll, Chirpy]
-image: /assets/img/BlogImage/elice.png
+image: /assets/img/BlogImage/chirpy.png
 published: true
 pin: false
 ---
