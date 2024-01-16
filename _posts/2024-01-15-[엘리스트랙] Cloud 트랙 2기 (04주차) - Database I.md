@@ -3,10 +3,20 @@ title: "[엘리스트랙] Cloud 트랙 2기 (04주차) - Database I"
 date: 2024-01-15 10:00:00 +09:00
 categories: [부트캠프, 엘리스트랙]
 tags: [부트캠프, 엘리스트랙, 노트필기]
-image: /assets/img/BlogImage/elice.png
+image: /2024-01-15/pic.png
 published: true
 pin: false
 ---
+
+자바 기초와 리눅스, 깃 수업이 끝나고 이번 주차는 데이터베이스에 관련된 내용을 배운다. 
+
+직전 SQLD 시험을 응시했으나 정말 아깝게 떨어져서 올해 처음 있는 시험에 응시할 생각이었는데 복습하는 데 도움이 많이 될 것 같다.
+
+<br>
+
+--
+
+<br>
 
 # ****04주차. Database I (01/15)****
 
