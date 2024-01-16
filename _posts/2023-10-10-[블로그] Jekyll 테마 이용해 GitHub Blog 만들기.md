@@ -80,7 +80,7 @@ Jekyll을 이용하면 손쉽게 블로그를 꾸밀 수 있다.
 	    ```
     
     - 명령어 추가하기
-    i를 눌러 INSERT 모드에 진입한 뒤 <<< conda initialize <<< 아래에 명령어를 추가해 준다.
+    i를 눌러 INSERT 모드에 진입한 뒤 `<<< conda initialize <<<` 아래에 명령어를 추가해 준다.
     
     입력이 완료되면 esc → :wq → enter 를 눌러 저장 후 종료한다.
     
