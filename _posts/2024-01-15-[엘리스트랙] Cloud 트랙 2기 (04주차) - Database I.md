@@ -3,7 +3,7 @@ title: "[엘리스트랙] Cloud 트랙 2기 (04주차) - Database I"
 date: 2024-01-15 10:00:00 +09:00
 categories: [부트캠프, 엘리스트랙]
 tags: [부트캠프, 엘리스트랙, 노트필기]
-image: /2024-01-15/pic.png
+image: _posts/2024-01-15/pic.png
 published: true
 pin: false
 ---
