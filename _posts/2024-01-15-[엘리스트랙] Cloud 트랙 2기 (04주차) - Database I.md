@@ -3,7 +3,7 @@ title: "[엘리스트랙] Cloud 트랙 2기 (04주차) - Database I"
 date: 2024-01-15 10:00:00 +09:00
 categories: [부트캠프, 엘리스트랙]
 tags: [부트캠프, 엘리스트랙, 노트필기]
-image: _posts/2024-01-15/pic.png
+image: /_posts/2024-01-15/pic.png
 published: true
 pin: false
 ---
@@ -60,7 +60,7 @@ pin: false
     - 튜플 : 속성이 모여 구성된 각각의 행
     - 도메인 : 속성이 가질 수 있는 값의 집합(중복 제외)
     
-    ![Untitled](2024-01-15/Untitled.png)
+    ![Untitled](/_posts/2024-01-15/Untitled.png)
     
     - 주소 도메인의 개수 : 2개 / 튜플의 개수 : 3개
     
@@ -202,20 +202,20 @@ pin: false
     - 현실 데이터를 개체-관계 형태의 다이어그램으로 나타냄
 - **ER 다이어그램 (Peter Chen)**
     
-    ![Untitled](2024-01-15/Untitled%201.png)
+    ![Untitled](/_posts/2024-01-15/Untitled%201.png)
     
     - 관계 추가하기
         
-        ![Untitled](2024-01-15/Untitled%202.png)
+        ![Untitled](/_posts/2024-01-15/Untitled%202.png)
         
         - N : M 관계는 각 개체의 기본키를 외래키로 가짐
 - **ER 다이어그램 (IE)**
     
-    ![Untitled](2024-01-15/Untitled%203.png)
+    ![Untitled](/_posts/2024-01-15/Untitled%203.png)
     
     - 까마귀발 표기법
         
-        ![Untitled](2024-01-15/Untitled%204.png)
+        ![Untitled](/_posts/2024-01-15/Untitled%204.png)
         
         - N : M 관계는 각 개체의 기본키를 외래키로 가짐
         
